@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Readex Pro';
+    color: #fff;
+    line-height: 1.5em;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #131415;
+}
+
+p,
+span,
+li {
+    font-size: 1em;
+    color: #adb0b1;
+}
+
+a {
+    font-weight: 500;
+    color: rgb(30, 190, 214);
+    text-decoration: none;
+}
+
+li {
+    line-height: 1.9em;
+
+}
+
+#education {
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+#main_container {
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 700px;
+}
+
+.section_page {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    gap: 4em;
+}
+
+#bio {
+    margin-top: 0%;
+    padding: 0%;
+}
+
+#bio,
+a {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#name {
+    font-size: 40px;
+    line-height: 1em;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#profile_pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#email {
+    color: #fff;
+}
+
+#social_links {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 1em;
+    flex-wrap: wrap;
+}
+
+#social_links a {
+    font-weight: 300;
+    color: #adb0b1;
+    font-size: 0.9em;
+    transition: 0.3s;
+}
+
+#social_links a:hover {
+    font-weight: 100;
+    color: rgb(30, 190, 214);
+    font-size: 0.9em;
+}
+
+#education {
+    list-style: none;
+}
+
+#skill_set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    font-size: 0.9em;
+}
+
+.skills {
+    border: 1px solid #2b3031;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    align-items: center;
+}
+
+.certicate_details {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid #2b3031;
+}
+
+.certicate_details a {
+    color: #fff;
+
+    transition: 0.3s;
+}
+
+.certicate_details a:hover {
+    color: rgb(30, 190, 214);
+
+}
+
+.project_details a strong:hover {
+    color: rgb(30, 190, 214);
+
+}
+
+.project_details {
+    border-left: 1px solid #2b3031;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-left: 2em;
+}
+
+.line-break {
+    background-color: #2b3031;
+    height: 1px;
+}
+
+@media(max-width:600px) {
+    #name {
+        text-align: center;
+        font-size: 38px;
+    }
+    #bio,#email{
+        text-align: center;
+    }
+}
+
+@media(max-width:600px) {
+
+    .section_page {
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+
+    #wrapper {
+        display: flex;
+        gap: 1em;
+        align-items: center;
+    }
+
+    #profile_pic {
+        height: 200px;
+        width: 200px;
+    }
+
+    #wrapper {
+        flex-direction: column;
+    }
+
+    .project_details {
+        border-left: none;
+        padding-left: 0;
+    }
+}
